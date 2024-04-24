@@ -1,0 +1,66 @@
+.download {
+  text-align: center;
+  background: #312222;
+  color: white;
+  padding: 20px;
+}
+
+.app-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.app-info-item {
+  background: #1f1f1f;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.app-info-item p {
+  margin: 0;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.buttons button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .app-info {
+    flex-direction: column;
+  }
+
+  .app-info-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons button {
+    margin: 10px 0;
+  }
+}
+

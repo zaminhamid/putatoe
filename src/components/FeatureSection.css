@@ -1,0 +1,33 @@
+.features {
+  padding: 20px;
+  text-align: center;
+}
+
+.feature-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.feature-card h2 {
+  color: #007bff;
+}
+
+.feature-card p {
+  color: #6c757d;
+}
+
+.review {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.whats-new {
+  margin-top: 20px;
+  color: #6c757d;
+}
+

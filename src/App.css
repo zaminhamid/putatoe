@@ -1,0 +1,27 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+section.features {
+  padding: 20px;
+}
+
+.feature-card {
+
+
+  margin-bottom: 20px;
+}
+
+
+
+
+
